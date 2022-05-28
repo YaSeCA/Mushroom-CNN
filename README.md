@@ -56,7 +56,7 @@ On a essayé de normaliser les photos d’apprentissage vue que les modèles app
 
 *entrainement = tf.keras.utils.normalize(entrainement, axis=1).reshape(entrainement.shape[0], -1)*
 
-Puis nous avons essayé d’augmenter la qualité des images pour 128 au lieu de 64. Seulement, cela a affecté négativement l’apprentissage. Puis nous avons diminuer la qualité pour 32 pixels.
+Puis nous avons essayé d’augmenter la qualité des images pour 128pi au lieu de 64pi. Seulement, cela a affecté négativement l’apprentissage. Puis nous avons diminué la qualité pour 32pi.
 
 Architecture et characteristiques:
 1. Compression d’image 32*32*3
@@ -80,7 +80,7 @@ Delta : correct
 
 ## Modèle #3
 
-Nous sommes revenus à 64 pixels. Cette fois, nous avons augmenté la taille des couches cachées, ainsi que leur nombre. Cela à augmenter la précision. Nous avons ensuite essayé de passer à 3 batch, par curiosité, et cela a grandement affecté l’apprentissage de manière négative. Nous avons donc essayé de faire passer le nombre de batch à 50, mais à notre grand malheur, cela provoque des problèmes dans le code – Nous avons donc dû abandonner cette approche.
+Nous sommes revenus à 64 pixels. Cette fois, nous avons augmenté la taille des couches cachées, ainsi que leur nombre. Cela a augmenté la précision. Nous avons ensuite essayé de passer à 3 batch, par curiosité, et cela a grandement affecté l’apprentissage de manière négative. Nous avons donc essayé de faire passer le nombre de batch à 50, mais à notre grand malheur, cela provoque des problèmes dans le code – Nous avons donc dû abandonner cette approche.
 
 Architecture et characteristiques:
 1. Compression d’image 64*64*3
@@ -103,7 +103,7 @@ Accuracy = 0.1045, Loss = 2.1689
 Delta : correct
 
 ## Modèle #4
-Pour ce modèle, nous nous sommes d’abord intéresser au nombre d’Epochs. Nous avons donc essayé d’augmenter ce nombre à 25. Et après un très long et stressant apprentissage, nous obtenons une accuracy totalement impressionnante… mais nous ne sommes pas dupes, nous soupçonnons de l’overfitting.
+Pour ce modèle, nous nous sommes d’abord intéressé au nombre d’Epochs. Nous avons donc essayé d’augmenter ce nombre à 25. Et après un très long et stressant apprentissage, nous obtenons une accuracy totalement impressionnante… mais nous ne sommes pas dupes, nous soupçonnons de l’overfitting.
 
 Architecture et characteristiques:
 1. Compression d’image 64*64*3
@@ -126,7 +126,7 @@ Accuracy = 0.2949, Loss = 3.867
 Delta : trop grand, **overfitting**
 
 ## Modèle #5
-Pour ce dernier modèle, nous avons décidé d’augmenter le nombre d’Epochs, mais juste un peu. Puis nous avons ajouté 25 photos pour chaque classe. Finalement nous avons essayé la fonction d’optimisation ‘opt’ au lieu de ‘adam’. Seule la dernière modification fut négative.
+Pour ce dernier modèle, nous avons décidé d’augmenter le nombre d’Epochs, mais juste un peu. Puis nous avons ajouté 25 photos pour chaque classe. Finalement, nous avons essayé la fonction d’optimisation ‘opt’ au lieu de ‘adam’. Seule la dernière modification fut négative.
 
 Architecture et characteristiques:
 1. Compression d’image 64*64*3
@@ -150,7 +150,7 @@ Delta : correct
 
 # Référence 
 
-Les 10 espèces de champignons et leurs caractère de comestibilités
+Les 10 espèces de champignons et leurs caractères de comestibilité
 
 Ganoderma pferfferi         comestible
 Pluteus cervinus            comestible
@@ -165,7 +165,7 @@ Fomitopsis pinicola         non-comestible
 
 # Sources
 
-Auteur de l'énoncé du travail: Jean Massardi (linkedin.com/in/jean-massardi-phd-89359118)
+Auteur de l'énoncé du travail: Jean Massardi ( linkedin.com/in/jean-massardi-phd-89359118 )
 
 Sources des images: https://www.kaggle.com/c/fungi-challenge-fgvc-2018/overview
 
