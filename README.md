@@ -152,16 +152,19 @@ Delta : correct
 
 Les 10 espèces de champignons et leurs caractères de comestibilité
 
-Ganoderma pferfferi         comestible
-Pluteus cervinus            comestible
-Plicatura crispa            non-comestible
-Tricholoma scalpturatum     comestible
-Xerocomellus chrysenteron   comestible
-Armillaria lutea            non-comestible
-Mycena galericulata         comestible
-Coprinellus micaceus        non-comestible
-Fomes formentarius          non-comestible
-Fomitopsis pinicola         non-comestible
+| Espèce de champignon        | Comestibilité  |          
+| --------------------------- | -------------- |
+| Ganoderma pferfferi         | comestible     |
+| Pluteus cervinus            | comestible     | 
+| Plicatura crispa            | non-comestible |  
+| Tricholoma scalpturatum     | comestible     |
+| Xerocomellus chrysenteron   | comestible     | 
+| Armillaria lutea            | non-comestible |
+| Mycena galericulata         | comestible     |
+| Coprinellus micaceus        | non-comestible |      
+| zebra stripes               | are neat       |
+| Fomes formentarius          | non-comestible |
+| Fomitopsis pinicola         | non-comestible |
 
 # Sources
 
