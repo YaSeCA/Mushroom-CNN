@@ -1,4 +1,4 @@
-# Presentation du cours
+# Présentation du cours
 
 Dans le cadre du cours Gestion et analyse de données, nous ont été présenté et confronté différentes méthodes de modélisation de données : les entrepôts de données et les systèmes de traitement analytique en ligne (OLAP), les bases de données non-relationnelles (NoSQL) et le traitement des données massives, les données transactionnelles et la recherche de règles d'associations. De plus, nous avons étudié l'extraction de connaissance et le forage de données, puis les techniques d'exploitation de données prédictives et descriptives.
 
