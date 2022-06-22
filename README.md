@@ -161,8 +161,7 @@ Les 10 espèces de champignons et leurs caractères de comestibilité
 | Xerocomellus chrysenteron   | comestible     | 
 | Armillaria lutea            | non-comestible |
 | Mycena galericulata         | comestible     |
-| Coprinellus micaceus        | non-comestible |      
-| zebra stripes               | are neat       |
+| Coprinellus micaceus        | non-comestible |  
 | Fomes formentarius          | non-comestible |
 | Fomitopsis pinicola         | non-comestible |
 
